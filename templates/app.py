@@ -18,8 +18,8 @@ app.secret_key = secrets.token_hex(16)  # Set a secret key for session managemen
 db_config = {
     'host': 'localhost',
     'port': 33020,
-    'user': 'root',
-    'password': '1234@',
+    'user': 'user',
+    'password': 'password ',
     'database': 'inventory'
 }
 
